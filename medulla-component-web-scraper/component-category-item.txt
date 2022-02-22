@@ -1,0 +1,4 @@
+new PaletteComponent() {
+    Name = "{{.Name}}", SvgString = _buttonIcon,
+    RenderComponentType = "{{.Component}}"
+},

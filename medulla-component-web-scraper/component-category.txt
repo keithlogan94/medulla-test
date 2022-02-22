@@ -1,0 +1,10 @@
+new() {
+    Name = "{{.Category}}",
+    PaletteWindowComponents = new PaletteWindowComponents()
+    {
+        ComponentList = new()
+    {
+            {{.Content}}
+        },
+    }
+},
